@@ -1,12 +1,15 @@
-<<<<<<< HEAD
-var cardOne = "King"
-var cardTwo = "Queen"
-var cardThree = "King"
-var cardFour = "Queen"
 
-=======
-var cardOne = "queen";
-var cardTwo= "queen";
-var cardThree= "king";
-var cardFour= "king";
->>>>>>> 2bbb41be857eba9b61273d5eb26345f46309daf6
+var cardOne = "King"
+var cardTwo = "King"
+var cardThree = "Queen"
+var cardFour = "Queen"
+var match = "You have found a match!"
+var diff = "sorry try again"
+
+if (cardTwo===cardFour) {
+	alert.("You have found a match!")
+} else if (cardTwo===cardFour) {
+	alert.("Sorry, try again.")
+}
+
+
