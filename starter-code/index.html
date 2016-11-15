@@ -1,54 +1,32 @@
 
-<!Doctype HTML>
-<head>
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title> Memory Game</title>
+	</head>
 
-<link rel="stylesheet" type="text/css" href="style.css">
+	<body>
+		<nav class="clearfix">
 
-<title> Memory Game
-</title>
-<script src="main.js"></script>
-</head>
+			<a href="#"> Instructions </a>
+			<a href="#"> Game </a>
+		</nav>
 
-<body>
-<nav class="clearfix">
-
-	<a href="#"> Instructions </a>
-	<a href="#"> Game </a>
-</nav>
-	<h1> Memory Game </h1>
-	<h2> Instructions </h2>
+		<h1> Memory Game </h1>
+		<h2> Instructions </h2>
 		<p> Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso, or Pairs, is a card game in which all of the cards are laid facedown on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.
 		</p>
 
-<button onclick="createBoard()">Try it</button>
+		<div id="game_board" class="board"></div>
 
- <div class="board" id="game-board">
-		<!-- <div class="card"></div>
-		<div class="card"></div>
-		<div class="card"></div>
-		<div class="card"></div> -->
+		<button onclick="createCards()">Try it</button>
 
-	</div>
-
-<footer> Created with &hearts; by <span>GA</span>. 
-</footer>
-<!--
-<script>
-		for (var i=0; i<4; i++) {
-	
-	var cardElement = document.createElement('div');
-	
-	cardElement.className = 'card';
-	
-	var board = document.getElementById("game-board");
-
-	board.appendChild(cardElement);
-}
-</script>
--->
-
-</body>
-
+		<footer> Created with &hearts; by <span>GA</span>.
+		</footer>	
+		<script src="main.js?ver=sdfsf"></script>
+	</body>
+</html>
 
 
 
